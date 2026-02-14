@@ -187,10 +187,17 @@ function showFinal(){
   subtitleEl.textContent = "You just made me the happiest person.";
 
   stageEl.innerHTML = `
-    <div class="question">Confirmed: you are officially my Valentine 🥹💘</div>
-    <div class="finalMessage">${escapeHtml(FINAL_NOTE)}</div>
-    <div class="small">P.S. Screenshot this page and send it to me 😌</div>
-  `;
+  <div class="question">Confirmed: you are officially my Valentine 🥹💘</div>
+
+  <div class="photoGrid">
+    <img src="images/22.JPG">
+    <img src="images/24.jpg">
+    <img src="images/30.jpg">
+  </div>
+
+  <div class="finalMessage">${escapeHtml(FINAL_NOTE)}</div>
+  <div class="small">P.S. Screenshot this page and send it to me 😌</div>
+`;
 }
 
 function escapeHtml(str){
