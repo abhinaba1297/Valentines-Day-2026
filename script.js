@@ -71,7 +71,7 @@ I love you, always.
 — Abhi ❤️`;
 
 // -------------------- App logic --------------------
-let idx = 0;
+let idx = -1;
 
 const titleEl = document.getElementById("title");
 const subtitleEl = document.getElementById("subtitle");
@@ -88,6 +88,30 @@ const stageEl = document.getElementById("stage");
 function clamp(n, min, max){ return Math.max(min, Math.min(max, n)); }
 
 function render(){
+if (idx === -1) {
+  stepEl.textContent = "Before we begin...";
+  barEl.style.width = "0%";
+
+  questionEl.textContent = "Who doesn't love background music? 🎵";
+  hintEl.textContent = "Highly recommended for the full experience.";
+
+  choicesEl.innerHTML = "";
+
+  const btn = document.createElement("button");
+  btn.className = "choice primary";
+  btn.textContent = "Of course";
+
+  btn.addEventListener("click", () => {
+    startMusic();
+    idx = 0;
+    render();
+  });
+
+  choicesEl.appendChild(btn);
+  backBtn.disabled = true;
+  return;
+}
+  
   const total = QUIZ.length;
   const q = QUIZ[idx];
 
