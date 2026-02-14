@@ -6,6 +6,19 @@ function popConfetti() {
   confetti({ particleCount: 120, spread: 70, origin: { y: 0.75 } });
   setTimeout(() => confetti({ particleCount: 80, spread: 100, origin: { y: 0.7 } }), 180);
 }
+
+let musicStarted = false;
+
+function startMusic() {
+  if (musicStarted) return;
+  const audio = document.getElementById("bgMusic");
+  if (audio) {
+    audio.volume = 0.6;
+    audio.play().catch(() => {});
+    musicStarted = true;
+  }
+}
+
 const QUIZ = [
   {
     text: "Important research question: are you the cutest most beautiful human on Earth?",
@@ -141,6 +154,7 @@ function makeChoiceButton(label, primary){
 }
 
 function next(){
+  startMusic();
   idx = clamp(idx + 1, 0, QUIZ.length - 1);
   render();
 }
