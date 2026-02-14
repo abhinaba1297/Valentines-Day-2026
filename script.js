@@ -62,12 +62,10 @@ const FINAL_NOTE =
 
 I don’t say it enough, but I appreciate you more than words can express.
 You’ve been my best decision, my safe place, and my favorite part of every day, I promise, babe.
+
 Thank you for being patient with me, for making me laugh when I need it most, and for simply being you.
 
-I can’t say it enough how beautiful you are, not the kind of beauty that others see when they look at you, 
-that’s easy to see, babe. I’m talking about the kind of beauty from within, the beauty in the way you care, 
-the way you love deeply, the way you stay strong even on difficult days, and the quiet kindness you carry everywhere you go. 
-It’s in your patience, your laughter, your honesty, and the warmth you bring into my life without even trying.
+I can’t say it enough how beautiful you are, not the kind of beauty that others see when they look at you, that’s easy to see, babe. I’m talking about the kind of beauty from within, the beauty in the way you care, the way you love deeply, the way you stay strong even on difficult days, and the quiet kindness you carry everywhere you go. It’s in your patience, your laughter, your honesty, and the warmth you bring into my life without even trying.
 
 That’s the beauty I fell in love with, babe, and the beauty I keep falling in love with, every single day.
 
