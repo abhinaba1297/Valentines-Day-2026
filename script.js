@@ -1,6 +1,11 @@
 // ✅ Edit these questions/answers freely.
 // Each question has: text, options (array), hint (optional).
 // The LAST item is the final "Will you be my valentine..." with runaway logic.
+function popConfetti() {
+  // small burst + some extra sparkle
+  confetti({ particleCount: 120, spread: 70, origin: { y: 0.75 } });
+  setTimeout(() => confetti({ particleCount: 80, spread: 100, origin: { y: 0.7 } }), 180);
+}
 const QUIZ = [
   {
     text: "Important research question: are you the cutest most beautiful human on Earth?",
@@ -92,7 +97,10 @@ function render(){
     wrap.id = "runawayWrap";
 
     const yesBtn = makeChoiceButton(q.options[1], true);
-    yesBtn.addEventListener("click", () => showFinal());
+    yesBtn.addEventListener("click", () => {
+  popConfetti();
+  showFinal();
+});
 
     const runawayBtn = makeChoiceButton(q.options[0], false);
     runawayBtn.id = "runawayBtn";
