@@ -186,13 +186,25 @@ function showFinal(){
   titleEl.textContent = "YAYYYY 💞";
   subtitleEl.textContent = "You just made me the happiest person.";
 
-  stageEl.innerHTML = `
+ const photos = [
+  "22.JPG",
+  "23.JPG",
+  "24.jpg",
+  "25.JPG",
+  "26.jpg",
+  "27.jpg",
+  "28.jpg",
+  "29.jpg",
+  "30.jpg"
+];
+
+const photoHTML = photos.map(p => `<img src="images/${p}">`).join("");
+
+stageEl.innerHTML = `
   <div class="question">Confirmed: you are officially my Valentine 🥹💘</div>
 
   <div class="photoGrid">
-    <img src="images/22.JPG">
-    <img src="images/24.jpg">
-    <img src="images/30.jpg">
+    ${photoHTML}
   </div>
 
   <div class="finalMessage">${escapeHtml(FINAL_NOTE)}</div>
