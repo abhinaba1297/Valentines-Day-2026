@@ -21,7 +21,7 @@ function startMusic() {
 
 const QUIZ = [
   {
-    text: "Important research question: are you the cutest most beautiful human on Earth?",
+    text: "Important research question: are you the cutest and most beautiful human on Earth?",
     options: ["Yes", "Heck yes"],
     hint: "Peer review says: accepted with zero revisions."
   },
@@ -32,17 +32,17 @@ const QUIZ = [
   },
   {
     text: "Should I keep loving you forever in the most annoying (and loyal) way possible?",
-    options: ["Is that even a question", "Yeaaaah baby"],
+    options: ["You know me way too much!", "Yeaaaah, baby"],
     hint: "Warning: includes random compliments + ‘I miss you’ attacks."
   },
   {
     text: "Would you like a lifetime subscription to bad jokes + good hugs + kisses + cuddles?",
-    options: ["Yes", "Absolutely heck yes"],
+    options: ["Yes", "Absolutely, heck yes"],
     hint: "No refunds (only more hugs)."
   },
   {
     text: "Do you agree that you and me = elite duo energy?",
-    options: ["Yes", "Heck yes"],
+    options: ["KKKKK", "Heck yes"],
     hint: "We’re basically a power couple… but cuter."
   },
   {
@@ -54,20 +54,28 @@ const QUIZ = [
 ];
 
 // ✅ Replace with her name if you want
-const HER_NAME = "Meu Amor Clara";
+const HER_NAME = "Meu Amor, Clara";
 
 // ✅ Customize the final letter/message here (inspired by your screenshot)
 const FINAL_NOTE =
 `Happy Valentine’s Day, ${HER_NAME}.
 
 I don’t say it enough, but I appreciate you more than words can express.
-You’ve been my best decision, my safe place, and my favorite part of every day.
+You’ve been my best decision, my safe place, and my favorite part of every day, I promise, babe.
 Thank you for being patient with me, for making me laugh when I need it most, and for simply being you.
 
-No matter where life takes us, I know I’ll always want to share it with you.
-Today is just a reminder of how lucky I am to have you by my side.
+I can’t say it enough how beautiful you are, not the kind of beauty that others see when they look at you, 
+that’s easy to see, babe. I’m talking about the kind of beauty from within, the beauty in the way you care, 
+the way you love deeply, the way you stay strong even on difficult days, and the quiet kindness you carry everywhere you go. 
+It’s in your patience, your laughter, your honesty, and the warmth you bring into my life without even trying.
 
-I love you, always.
+That’s the beauty I fell in love with, babe, and the beauty I keep falling in love with, every single day.
+
+No matter where life takes us, I know I’ll always want to share it with you, today and forever.
+Today is just a reminder of how lucky I am to have you by my side. I promise to be by your side 
+every single second of this life.
+
+Eu Te Amo, always.
 — Abhi ❤️`;
 
 // -------------------- App logic --------------------
