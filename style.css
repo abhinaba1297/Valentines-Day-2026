@@ -191,3 +191,17 @@ button.choice.primary{
   .choices{ flex-direction:column; }
   button.choice{ width:100%; }
 }
+.photoGrid{
+  margin-top:16px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px;
+}
+
+.photoGrid img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+  border-radius:16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12);
+}
