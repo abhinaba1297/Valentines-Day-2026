@@ -30,7 +30,7 @@ const QUIZ = [
   {
     text: "Will you be my Valentine for today and forever? 💘",
     options: ["Let me think", "I was going to say yes anyway 😌"],
-    hint: "Try picking the ‘not-yes’ option… if you can 😈",
+    hint: "Try picking the ‘Let me think’ option… if you can 😈",
     final: true
   }
 ];
